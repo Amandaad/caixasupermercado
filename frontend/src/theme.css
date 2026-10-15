@@ -1,0 +1,130 @@
+:root {
+  color: #f3eff0;
+  background: #0b0b0d;
+  color-scheme: dark;
+}
+
+body {
+  background: #0b0b0d;
+}
+
+.login-wrap {
+  background: radial-gradient(circle at top left, #351014, #0b0b0d 52%);
+}
+
+.login-card,
+.stat-card,
+.panel {
+  background: #151517;
+  border-color: #34272a;
+  box-shadow: 0 18px 50px #0009;
+}
+
+.brand-mark,
+.primary {
+  background: #c8102e;
+  color: #fff;
+}
+
+.primary:hover {
+  background: #a90c26;
+}
+
+.eyebrow {
+  color: #d65b6d;
+}
+
+.muted,
+.tiny,
+.stat-card span,
+.stat-card small,
+.panel-heading p,
+.empty {
+  color: #aaa0a3;
+}
+
+.login-card label,
+.product-form label {
+  color: #d2c6c9;
+}
+
+.login-card input,
+.product-form input,
+.product-form select,
+.search {
+  color: #f3eff0;
+  background: #101012;
+  border-color: #3b3033;
+}
+
+.login-card input:focus,
+.product-form input:focus,
+.product-form select:focus,
+.search:focus {
+  border-color: #e52b47;
+  box-shadow: 0 0 0 3px #e52b4726;
+}
+
+.sidebar {
+  background: #111113;
+  border-right: 1px solid #332226;
+}
+
+.brand-row span,
+.nav-label {
+  color: #a99da1;
+}
+
+.nav-item.selected {
+  color: #ff7185;
+  background: #351217;
+}
+
+.nav-item.disabled,
+.nav-item small {
+  color: #918589;
+}
+
+.sidebar-bottom {
+  color: #b5aaad;
+  border-color: #39282d;
+}
+
+.user-pill {
+  color: #e1d5d8;
+  background: #171719;
+  border-color: #382a2e;
+}
+
+th {
+  color: #c6b9bd;
+  background: #20191b;
+}
+
+td {
+  color: #d1c7ca;
+  border-color: #30282b;
+}
+
+td strong {
+  color: #fff;
+}
+
+.tag.warning {
+  color: #ff9aaa;
+  background: #50151f;
+}
+
+.error {
+  color: #ff9aaa;
+  background: #42131b;
+}
+
+.success {
+  color: #f28b9b;
+  background: #242023;
+}
+
+footer {
+  color: #8f8588;
+}
